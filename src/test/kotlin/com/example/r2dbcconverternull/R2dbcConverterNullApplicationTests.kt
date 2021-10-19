@@ -19,6 +19,7 @@ class R2dbcConverterNullApplicationTests {
     lateinit var databaseClient: DatabaseClient
 
     @Autowired
+    // Custom converter from String to JsonNode defined in com.example.r2dbcconverternull.R2dbcConfig
     lateinit var converter: R2dbcConverter
 
     @Test
